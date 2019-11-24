@@ -1,3 +1,15 @@
-<p>
-  header works!
-</p>
+<header>
+	<div class="container">
+		<h1>Fanatic Books</h1>
+		<ul>
+			<li *ngFor="let category of categories">{{category}}</li>
+		</ul>
+		<!-- Search may be it's own component -->
+		<form>
+			<input type='text' placeholder="search"/>
+		</form>
+		<div class="account">
+			Account Stuff
+		</div>
+	</div>
+</header>

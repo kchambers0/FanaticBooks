@@ -7,9 +7,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
-  constructor() { }
+  categories=[
+      "Biography",
+      "Business",
+      "Cookbooks",
+      "Fiction",
+      "Health & Fitness",
+      "History",
+      "Religion & Inspiration",
+      "Self-Improvement"
+    ];
+  	constructor() { }
 
-  ngOnInit() {
+  	ngOnInit() {
+  	
   }
 
 }

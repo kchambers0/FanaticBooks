@@ -1,3 +1,13 @@
-<p>
-  sidebar works!
-</p>
+<aside>
+	<h2>Fiction</h2>
+	<h3>Shop by genres</h3>
+	<ul>
+		<li *ngFor="let catTitle of subcategories">
+			<b>{{ catTitle.title }}</b>
+			<ul>
+				<li *ngFor="let subcats of catTitle.subcategories">{{ subcats }}</li>
+			</ul>
+		</li>
+	</ul>
+</aside>
+

@@ -1,0 +1,35 @@
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+* {
+  font-family: Helvetica, Arial;
+}
+header {
+  background-color: #215fa3;
+  color: #ffffff;
+  padding: 10px 0;
+}
+header:after {
+  content: '';
+  display: block;
+  clear: left;
+}
+header h1 {
+  float: left;
+}
+header ul {
+  list-style-type: none;
+}
+header ul li {
+  float: left;
+  margin: 0px 5px;
+  padding: 0px 10px;
+  font-weight: 200;
+}
+header form {
+  float: left;
+}
+header .account {
+  float: left;
+}

@@ -1,0 +1,61 @@
+[
+	{
+		"title":"Action & Fun Reads",
+		"subcategories":[
+			"Graphic Novels & Comics",
+			"Humorous Fiction",
+			"Teen Fiction"
+		]
+	},
+	{
+		"title":"History & Criticism",
+		"subcategories":[
+			"African American",
+			"Christian Fiction",
+			"Mystery & Crime",
+			"Historical Fiction",
+			"War & Military"
+		]
+	},
+	{
+		"title":"Dark, Horror & Fantasy",
+		"subcategories":[
+			"Horror",
+			"Thrillers",
+			"Mystery & Crime",
+			"Folklore & Mythology",
+			"Sci-fi & Fantasy"
+		]
+	},
+	{
+		"title":"Classics",
+		"subcategories":[
+			"Fiction & Literature",
+			"Love & Romance"
+		]
+	},
+	{
+		"title":"People & Nature",
+		"subcategories":[
+			"Nautical & Maritime",
+			"People & Cultures",
+			"Westerns",
+			"Women's Fiction",
+			"World Literature"
+		]
+	},
+	{
+		"title":"Other",
+		"subcategories":[
+			"Anthologies",
+			"Drama",
+			"Essays",
+			"Fiction Subjects",
+			"Letters",
+			"Literary Criticism",
+			"Novels & Short Stories",
+			"Poetry",
+			"Short Stories"
+		]
+	}
+]

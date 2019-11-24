@@ -1,0 +1,29 @@
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+* {
+  font-family: Helvetica, Arial;
+}
+footer {
+  background-color: #494949;
+}
+footer:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+footer h1 {
+  float: left;
+}
+footer ul {
+  list-style-type: none;
+  float: left;
+}
+footer ul li {
+  float: left;
+  width: 33%;
+}
+footer hr {
+  clear: both;
+}
