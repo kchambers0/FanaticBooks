@@ -1,19 +1,26 @@
 <footer>
 	<div class="container">
 		<h1>Fanatic Books</h1>
-		<ul>
+		<ul class="categories">
 			<li *ngFor="let category of categories">{{category}}</li>
 		</ul>
 		<form>
-			<input type='text' placeholder="email"/>
+			<label>Sign up for deals and updates from Fanatic</label>
+			<input type='text' placeholder="email"/><button>Sign Up</button>
 		</form>
-		<hr/>
+	</div>
+	<div class="footer-footer">
 		<ul>
 			<li>About Us</li>
 			<li>Corporate Information</li>
 			<li>Careers</li>
 			<li>Customer Service</li>
 			<li>Sitemap</li>
+		</ul>
+		<ul class="copyright">
+			<li>Terms of Use</li>
+			<li>Privacy Policy</li>
+			<li>Copyright &copy; 2019 Fanatic Books. All rights reserved.</li>
 		</ul>
 	</div>
 </footer>

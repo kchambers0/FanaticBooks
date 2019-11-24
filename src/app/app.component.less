@@ -9,10 +9,53 @@
 @white:				#ffffff;
 
 .container{
-	width:90%;
+	width:93%;
 	margin:0 auto;
+
+	&:after{
+		content:'';
+		display:block;
+		clear:both;
+	}
 }
 
 *{
 	font-family:Helvetica, Arial;
+
+	opacity:.7
+}
+
+h1{
+	float:left;
+	width:170px;
+	height:58px;
+	text-indent:-5000px;
+	background:url('../assets/FanaticBooksLogo.png') no-repeat;
+	background-size:contain;
+	margin-right:10px;
+}
+
+form{
+	position:relative;
+	input[type="text"]{
+			height:40px;
+			padding-left:20px;
+			font-size:16px;
+			color:@gray;
+			font-weight:100;
+		}
+		button{
+			background-color:@light-blue;
+			border:none;
+			height:40px;
+			width:40px;
+			position:absolute;
+			color:@white;
+			border-radius:3px;
+			right:-20px;
+			padding:5px;
+			i.material-icon{
+				font-size:30px;
+			}
+		}
 }

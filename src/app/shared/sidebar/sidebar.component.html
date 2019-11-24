@@ -5,7 +5,7 @@
 		<li *ngFor="let catTitle of subcategories">
 			<b>{{ catTitle.title }}</b>
 			<ul>
-				<li *ngFor="let subcats of catTitle.subcategories">{{ subcats }}</li>
+				<li *ngFor="let subcats of catTitle.subcategories"><a href="#">{{ subcats }}</a></li>
 			</ul>
 		</li>
 	</ul>

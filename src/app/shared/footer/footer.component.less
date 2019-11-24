@@ -2,6 +2,11 @@
 
 footer{
 	background-color:@dark-gray;
+	color:@white;
+	padding:30px;
+	.container{
+		width:83%;
+	}
 	&:after{
 		content:'';
 		display:block;
@@ -9,16 +14,64 @@ footer{
 	}
 	h1{
 		float:left;
+
 	}
 	ul{
 		list-style-type:none;
 		float:left;
+		&.categories{
+			width:550px;
+			margin-right:50px;
+			li{
+				width:33%;
+			}
+		}
 		li{
 			float:left;
-			width:33%;
+			margin-bottom:20px;
+			a{
+				color:@white;
+
+			}
 		}
 	}
-	hr{
+	form{
+		float:left;
+		border-left:1px solid @ugly-green;
+		padding-left:50px;
+		label{
+			display:block;
+			font-size:20px;
+			margin-bottom:20px;
+		}
+		input[type="text"]{
+			width:400px;
+		}
+		button{
+			width:80px;
+		}
+	}
+	.footer-footer{
 		clear:both;
+		margin-top:30px;
+		padding-top:30px;	
+		border-top:1px solid @light-gray;
+
+		&:after{
+			content:'';
+			display:block;
+			clear:both;
+		}
+
+		ul{
+
+			&.copyright{
+				float:right;
+			}
+			li{
+				margin:0 10px;
+				padding:0 10px;
+			}
+		}
 	}
 }

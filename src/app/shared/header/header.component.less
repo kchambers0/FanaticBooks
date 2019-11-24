@@ -1,31 +1,45 @@
 @import "../../app.component.less";
 
 header{
-	background-color: @blue;
+	background-color: @dark-blue;
 	color:@white;
 	padding:10px 0;
+	height:80px;
 	&:after{
 		content:'';
 		display:block;
 		clear:left;
 	}
 	h1{
-		float:left;
+		border-right:4px solid @ugly-green;
 	}
 	ul{
 		list-style-type:none;
 		li{
 			float:left;
-			margin:0px 5px;
-			padding:0px 10px;
+			margin:0 3px;
+			padding:20px 10px;
 
 			font-weight:200;
+			a{
+				color:@white;
+				text-decoration:none;
+				i.material-icon{
+					margin-right:10px;
+				}
+			}
 		}
 	}
 	form{
 		float:left;
+		padding:10px 10px 10px 80px;
+		position:relative;
+		input[type="text"]{
+			width:500px;
+		}
 	}
 	.account{
 		float:left;
+		padding:20px 0 20px 40px;
 	}
 }
