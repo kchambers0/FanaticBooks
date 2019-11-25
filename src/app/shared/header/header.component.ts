@@ -7,7 +7,8 @@ import { DataService } from '../../core/data.service';
   styleUrls: ['./header.component.less']
 })
 export class HeaderComponent implements OnInit {
-	categories=[
+  categories;
+	fullCategories=[
       "Biography",
       "Business",
       "Cookbooks",
@@ -18,6 +19,7 @@ export class HeaderComponent implements OnInit {
       "Self-Improvement"
     ];
     subcategories;
+    user = "Kevin";
   	constructor(private dataService:DataService) { }
 
   	ngOnInit() {

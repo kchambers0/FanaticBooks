@@ -9,6 +9,7 @@ import { DataService } from '../core/data.service'
 })
 export class HomeComponent implements OnInit {
 	books;
+	currencyCode: string = "USD";
   	constructor(private dataService:DataService) { }
 
   	ngOnInit() {

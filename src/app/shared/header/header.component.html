@@ -1,8 +1,8 @@
 <header>
-	<div class="container">
+	<nav class="container">
 		<h1>Fanatic Books</h1>
 		<ul>
-			<li *ngFor="let category of categories"><a href="#">{{category}}</a></li>
+			<li *ngFor="let category of categories"><a href="#">{{ category }}</a></li>
 			<li><a href="#"><i class="material-icon">bookmarks</i>Browse More</a></li>
 		</ul>
 		<!-- Search may be it's own component -->
@@ -13,6 +13,25 @@
 		<div class="account">
 			Hi {{ user }}!
 			<a href="#">Your Account</a>
+		</div>
+	</nav>
+
+	<div class="subnav hidden">
+		<div class="main">
+			<ul>
+				<li class="sale">Sale</li>
+				<li *ngFor="let category of fullCategories">{{ category }}</li>
+			</ul>
+		</div>
+		<div class="subcat">
+			<ul>
+				<li *ngFor="let catTitle of subcategories">
+					<b>{{ catTitle.title }}</b>
+					<ul>
+						<li *ngFor="let subcats of catTitle.subcategories"><a href="#">{{ subcats }}</a></li>
+					</ul>
+				</li>
+			</ul>
 		</div>
 	</div>
 </header>

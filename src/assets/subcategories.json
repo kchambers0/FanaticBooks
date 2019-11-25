@@ -14,7 +14,8 @@
 			"Christian Fiction",
 			"Mystery & Crime",
 			"Historical Fiction",
-			"War & Military"
+			"War & Military",
+			"Literary Criticism"
 		]
 	},
 	{
@@ -31,7 +32,13 @@
 		"title":"Classics",
 		"subcategories":[
 			"Fiction & Literature",
-			"Love & Romance"
+			"Fiction Subjects",
+			"Love & Romance",
+			"Anthologies",
+			"Drama",
+			"Novels & Short Stories",
+			"Poetry"
+
 		]
 	},
 	{
@@ -41,21 +48,9 @@
 			"People & Cultures",
 			"Westerns",
 			"Women's Fiction",
-			"World Literature"
-		]
-	},
-	{
-		"title":"Other",
-		"subcategories":[
-			"Anthologies",
-			"Drama",
+			"World Literature",
 			"Essays",
-			"Fiction Subjects",
-			"Letters",
-			"Literary Criticism",
-			"Novels & Short Stories",
-			"Poetry",
-			"Short Stories"
+			"Letters"
 		]
 	}
 ]

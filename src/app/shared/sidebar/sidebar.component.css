@@ -9,7 +9,6 @@
 }
 * {
   font-family: Helvetica, Arial;
-  opacity: 0.7;
 }
 h1 {
   float: left;
@@ -76,6 +75,6 @@ aside ul li ul li {
   padding-left: 15px;
 }
 aside ul li ul li a {
-  color: #009dd5;
+  color: #215fa3;
   text-decoration: none;
 }
