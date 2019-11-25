@@ -22,6 +22,13 @@ export class DataService {
    		);
    }
 
+   getBooks() {
+    return this.http.get(this.baseUrl + 'books.json')
+      .pipe(
+        catchError(this.handleError)
+      )
+   }
+
   private handleError(error: any) {
       console.error('server error:', error);
       if (error.error instanceof Error) {

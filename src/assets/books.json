@@ -1,0 +1,104 @@
+{
+	"top_picks":[{
+		"title":"Pet Semetary",
+		"author":"Steven King",
+		"rating":4,
+		"price":9.99,
+		"img":"pet_semetary.jpg"
+	},
+	{
+		"title":"Just One Bite",
+		"author":"Jack Heath",
+		"rating":4,
+		"price":11.50,
+		"img":"just_one_bite.jpg"
+	},
+	{
+		"title":"Dark Tower - The Gunslinger",
+		"author":"Steven King",
+		"rating":5,
+		"price":9.99,
+		"img":"dark_tower.jpg"
+	},
+	{
+		"title":"The Nanny",
+		"author":"Gilly Macmillan",
+		"rating":5,
+		"price":12.99,
+		"img":"the_nanny.jpg"
+	},
+	{
+		"title":"It: A Novel",
+		"author":"Steven King",
+		"rating":4,
+		"price":9.99,
+		"img":"it.jpg"
+	}],
+	"popular_now":[{
+		"title":"Before the Devil Fell",
+		"author":"Neil Olson",
+		"rating":5,
+		"price":10.80,
+		"img":"devil_fell.jpg"
+	},{
+		"title":"Now you See me",
+		"author":"Chris McGeorge",
+		"rating":5,
+		"price":9.99,
+		"img":"see_me.jpg"
+	},{
+		"title":"The 19th Christmas",
+		"author":"James Patterson",
+		"rating":5,
+		"price":12.99,
+		"img":"christmas_19.jpg"
+	},{
+		"title":"Strangers She Knows",
+		"author":"Christina Dodd",
+		"rating":5,
+		"price":10.99,
+		"img":"she_knows.jpg"
+	},{
+		"title":"All the Evil of this World",
+		"author":"Jared Dillian",
+		"rating":5,
+		"price":19.99,
+		"img":"evil_world.jpg"
+	}],
+	"halloween_fanatic":[{
+		"title":"The Gunslinger",
+		"author":"Steven King",
+		"rating":5,
+		"price":9.99,
+		"img":"gunslinger.jpg"
+	},
+	{
+		"title":"Ninth House",
+		"author":"Leigh Bardugo",
+		"rating":4,
+		"price":8.99,
+		"img":"ninth_house.jpg"
+	},
+	{
+		"title":"Vendetta in Death",
+		"author":"J.D. Robb",
+		"rating":5,
+		"price":8.50,
+		"img":"vendetta_death.jpg"
+	},
+	{
+		"title":"The 20th Victim",
+		"author":"Maxine Paetro",
+		"rating":5,
+		"price":8.99,
+		"img":"victim_20.jpg"
+	},
+	{
+		"title":"One Night Gone",
+		"author":"Tara Laskowski",
+		"rating":5,
+		"price":12.99,
+		"img":"night_gone.jpg"
+	}]
+
+}

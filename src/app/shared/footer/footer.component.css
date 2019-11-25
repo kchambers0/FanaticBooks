@@ -9,6 +9,7 @@
 }
 * {
   font-family: Helvetica, Arial;
+  opacity: 0.7;
 }
 h1 {
   float: left;
@@ -47,6 +48,7 @@ footer {
   background-color: #494949;
   color: #ffffff;
   padding: 30px;
+  clear: both;
 }
 footer .container {
   width: 83%;

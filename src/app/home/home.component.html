@@ -1,0 +1,40 @@
+<section class='content'>
+	<div class="carousel">
+	</div>
+	<div class="rec-list">
+		<h2>Top Picks</h2>
+		<ul>
+			<li *ngFor="let book of books.top_picks">
+				<img src="../../assets/covers/{{ book.img }}" alt="{{ book.title }}"/><br>
+				{{ book.title }}<br>
+				by {{ book.author }}<br>
+				Rating: {{ book.rating }}<br>
+				{{ book.price }}
+			</li>
+		</ul>
+	</div>
+	<div class="rec-list">
+		<h2>Popular Now</h2>
+		<ul>
+			<li *ngFor="let book of books.popular_now">
+				<img src="../../assets/covers/{{ book.img }}" alt="{{ book.title }}"/><br>
+				{{ book.title }}<br>
+				by {{ book.author }}<br>
+				Rating: {{ book.rating }}<br>
+				{{ book.price }}
+			</li>
+		</ul>
+	</div>
+	<div class="rec-list">
+		<h2>Halloween Fanatic</h2>
+		<ul>
+			<li *ngFor="let book of books.halloween_fanatic">
+				<img src="../../assets/covers/{{ book.img }}" alt="{{ book.title }}"/><br>
+				{{ book.title }}<br>
+				by {{ book.author }}<br>
+				Rating: {{ book.rating }}<br>
+				{{ book.price }}
+			</li>
+		</ul>
+	</div>
+</section>

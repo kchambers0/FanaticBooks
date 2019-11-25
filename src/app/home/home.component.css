@@ -9,7 +9,6 @@
 }
 * {
   font-family: Helvetica, Arial;
-  color: #494949;
   opacity: 0.9;
 }
 h1 {
@@ -44,4 +43,35 @@ form button {
 }
 form button i.material-icon {
   font-size: 30px;
+}
+.content {
+  float: left;
+}
+.content .carousel {
+  margin: 30px 0 40px;
+  height: 400px;
+  width: 1240px;
+  background-color: #064880;
+}
+.content .rec-list {
+  margin-bottom: 65px;
+}
+.content .rec-list h2 {
+  margin-bottom: 25px;
+}
+.content .rec-list ul {
+  list-style-type: none;
+}
+.content .rec-list ul li {
+  float: left;
+  width: 225px;
+  margin: 0 10px;
+}
+.content .rec-list ul li img {
+  width: 100%;
+}
+.content .rec-list:after {
+  content: '';
+  display: block;
+  clear: both;
 }

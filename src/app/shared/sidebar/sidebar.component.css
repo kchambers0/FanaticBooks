@@ -9,6 +9,7 @@
 }
 * {
   font-family: Helvetica, Arial;
+  opacity: 0.7;
 }
 h1 {
   float: left;
@@ -46,6 +47,7 @@ form button i.material-icon {
 aside {
   width: 300px;
   padding: 40px 0px 40px 70px;
+  float: left;
   background-color: #ffffff;
   padding-bottom: 1135px;
 }
