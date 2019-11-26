@@ -24,6 +24,9 @@ header{
 			a{
 				color:@white;
 				text-decoration:none;
+				&.selected{
+					font-weight:700;
+				}
 				i.material-icon{
 					margin-right:10px;
 				}
@@ -74,8 +77,11 @@ header{
 			float:left;
 			ul{
 				li{
-					&.selected{
-						color:@ugly-green;
+					a{
+						color:@dark-gray;
+						&.selected{
+							color:@ugly-green;
+						}
 					}
 					&.sale{
 						color:orange;

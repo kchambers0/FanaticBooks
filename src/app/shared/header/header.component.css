@@ -70,6 +70,9 @@ header ul li a {
   color: #ffffff;
   text-decoration: none;
 }
+header ul li a.selected {
+  font-weight: 700;
+}
 header ul li a i.material-icon {
   margin-right: 10px;
 }
@@ -116,8 +119,12 @@ header .subnav .main,
 header .subnav .subcat {
   float: left;
 }
-header .subnav .main ul li.selected,
-header .subnav .subcat ul li.selected {
+header .subnav .main ul li a,
+header .subnav .subcat ul li a {
+  color: #494949;
+}
+header .subnav .main ul li a.selected,
+header .subnav .subcat ul li a.selected {
   color: #68a900;
 }
 header .subnav .main ul li.sale,

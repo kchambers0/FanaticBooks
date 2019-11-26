@@ -77,3 +77,26 @@ aside ul li ul li a {
   color: #215fa3;
   text-decoration: none;
 }
+aside label {
+  display: block;
+  position: relative;
+  margin: 10px 0;
+}
+aside label input[type="checkbox"] {
+  opacity: 0;
+  margin-right: 10px;
+}
+aside label input[type="checkbox"]:checked ~ .cbox {
+  background-color: #009dd5;
+}
+aside label .cbox {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: #ffffff;
+  border: 2px solid #818181;
+  border-radius: 5px;
+  position: absolute;
+  top: -1px;
+}

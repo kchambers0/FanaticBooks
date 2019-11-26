@@ -85,6 +85,9 @@ form button i.material-icon {
 .content .rec-list ul li p.author {
   font-size: 14px;
 }
+.content .rec-list ul li .book-box .rating {
+  width: 70px;
+}
 .content .rec-list ul li .book-box .reveal {
   display: none;
   position: relative;

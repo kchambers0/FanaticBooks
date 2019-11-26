@@ -1,5 +1,6 @@
 <section class='content'>
 	<div class="carousel">
+		<app-carousel></app-carousel>
 	</div>
 	<div class="rec-list"  *ngIf="books">
 		<h2>Top Picks</h2>
@@ -9,7 +10,8 @@
 					<img src="../../assets/covers/{{ book.img }}" alt="{{ book.title }}"/>
 					<p class="title">{{ book.title }}</p>
 					<p>by {{ book.author }}</p>
-					<p>Rating: {{ book.rating }}</p>
+					<p *ngIf="book.rating == 4" ><img class="rating" src="../../assets/4stars.jpg"/></p>
+					<p *ngIf="book.rating == 5" ><img class="rating" src="../../assets/5stars.jpg"/></p>
 					<p>{{ book.price | currency:currencyCode }}</p>
 					<div class="reveal">
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum sodales dapibus. Sed quis orci tristique, rhoncus eros quis, ullamcorper turpis. Cras id risus elementum, faucibus turpis quis...</p>
@@ -29,7 +31,8 @@
 					<img src="../../assets/covers/{{ book.img }}" alt="{{ book.title }}"/>
 					<p class="title">{{ book.title }}</p>
 					<p>by {{ book.author }}</p>
-					<p>Rating: {{ book.rating }}</p>
+					<p *ngIf="book.rating == 4" ><img class="rating" src="../../assets/4stars.jpg"/></p>
+					<p *ngIf="book.rating == 5" ><img class="rating" src="../../assets/5stars.jpg"/></p>
 					<p>{{ book.price | currency:currencyCode }}</p>
 					<div class="reveal">
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum sodales dapibus. Sed quis orci tristique, rhoncus eros quis, ullamcorper turpis. Cras id risus elementum, faucibus turpis quis...</p>
@@ -49,7 +52,8 @@
 					<img src="../../assets/covers/{{ book.img }}" alt="{{ book.title }}"/>
 					<p class="title">{{ book.title }}</p>
 					<p>by {{ book.author }}</p>
-					<p>Rating: {{ book.rating }}</p>
+					<p *ngIf="book.rating == 4" ><img class="rating" src="../../assets/4stars.jpg"/></p>
+					<p *ngIf="book.rating == 5" ><img class="rating" src="../../assets/5stars.jpg"/></p>
 					<p>{{ book.price | currency:currencyCode }}</p>
 					<div class="reveal">
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum sodales dapibus. Sed quis orci tristique, rhoncus eros quis, ullamcorper turpis. Cras id risus elementum, faucibus turpis quis...</p>
