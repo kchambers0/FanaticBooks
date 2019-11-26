@@ -73,6 +73,9 @@ header ul li a {
 header ul li a i.material-icon {
   margin-right: 10px;
 }
+header ul li.selected {
+  font-weight: 700;
+}
 header form {
   float: left;
   padding: 10px 10px 10px 80px;
@@ -124,7 +127,7 @@ header .subnav .subcat ul li.sale {
 }
 header .subnav .main {
   padding: 0 40px;
-  border-right: 1px solid #e9e9e9;
+  border-right: 1px solid #818181;
   margin-right: 40px;
 }
 header .subnav .subcat {

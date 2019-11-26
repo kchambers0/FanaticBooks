@@ -14,7 +14,7 @@
 					<div class="reveal">
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum sodales dapibus. Sed quis orci tristique, rhoncus eros quis, ullamcorper turpis. Cras id risus elementum, faucibus turpis quis...</p>
 						<div>
-							<button class="add-cart">Add to Cart</button><a href="#" class="details">Details</a>
+							<button class="add-cart">Add to Cart</button><a [routerLink]="['/book',book.id]" class="details">Details</a>
 						</div>
 					</div>
 				</div>
@@ -25,11 +25,19 @@
 		<h2>Popular Now</h2>
 		<ul>
 			<li *ngFor="let book of books.popular_now">
-				<img src="../../assets/covers/{{ book.img }}" alt="{{ book.title }}"/>
-				<p class="title">{{ book.title }}</p>
-				<p>by {{ book.author }}</p>
-				<p>Rating: {{ book.rating }}</p>
-				<p>{{ book.price | currency:currencyCode }}</p>
+				<div class="book-box">
+					<img src="../../assets/covers/{{ book.img }}" alt="{{ book.title }}"/>
+					<p class="title">{{ book.title }}</p>
+					<p>by {{ book.author }}</p>
+					<p>Rating: {{ book.rating }}</p>
+					<p>{{ book.price | currency:currencyCode }}</p>
+					<div class="reveal">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum sodales dapibus. Sed quis orci tristique, rhoncus eros quis, ullamcorper turpis. Cras id risus elementum, faucibus turpis quis...</p>
+						<div>
+							<button class="add-cart">Add to Cart</button><a [routerLink]="['/book',book.id]" class="details">Details</a>
+						</div>
+					</div>
+				</div>
 			</li>
 		</ul>
 	</div>
@@ -37,11 +45,19 @@
 		<h2>Halloween Fanatic</h2>
 		<ul>
 			<li *ngFor="let book of books.halloween_fanatic">
-				<img src="../../assets/covers/{{ book.img }}" alt="{{ book.title }}"/>
-				<p class="title">{{ book.title }}</p>
-				<p>by {{ book.author }}</p>
-				<p>Rating: {{ book.rating }}</p>
-				<p>{{ book.price | currency:currencyCode }}</p>
+				<div class="book-box">
+					<img src="../../assets/covers/{{ book.img }}" alt="{{ book.title }}"/>
+					<p class="title">{{ book.title }}</p>
+					<p>by {{ book.author }}</p>
+					<p>Rating: {{ book.rating }}</p>
+					<p>{{ book.price | currency:currencyCode }}</p>
+					<div class="reveal">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum sodales dapibus. Sed quis orci tristique, rhoncus eros quis, ullamcorper turpis. Cras id risus elementum, faucibus turpis quis...</p>
+						<div>
+							<button class="add-cart">Add to Cart</button><a [routerLink]="['/book',book.id]" class="details">Details</a>
+						</div>
+					</div>
+				</div>
 			</li>
 		</ul>
 	</div>

@@ -7,6 +7,8 @@ import { DataService } from '../../core/data.service';
   styleUrls: ['./header.component.less']
 })
 export class HeaderComponent implements OnInit {
+  isHidden=true;
+
   categories;
 	fullCategories=[
       "Biography",
@@ -21,6 +23,15 @@ export class HeaderComponent implements OnInit {
     subcategories;
     user = "Kevin";
   	constructor(private dataService:DataService) { }
+
+    open(e){
+      e.stopPropagation()
+      this.isHidden=false;
+    }
+    close(e){
+      e.stopPropagation()
+      this.isHidden=true;
+    }
 
   	ngOnInit() {
   		this.categories=[

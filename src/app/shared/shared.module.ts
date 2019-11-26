@@ -3,12 +3,13 @@ import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { ClickOutsideDirective } from './click-outside.directive';
 
 @NgModule({
-  declarations: [HeaderComponent, FooterComponent, SidebarComponent],
+  declarations: [HeaderComponent, FooterComponent, SidebarComponent, ClickOutsideDirective],
   imports: [
     CommonModule
   ],
-  exports: [HeaderComponent, FooterComponent, SidebarComponent]
+  exports: [HeaderComponent, FooterComponent, SidebarComponent, ClickOutsideDirective]
 })
 export class SharedModule { }

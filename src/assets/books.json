@@ -1,5 +1,6 @@
 {
 	"top_picks":[{
+		"id":1,
 		"title":"Pet Semetary",
 		"author":"Steven King",
 		"rating":4,
@@ -7,6 +8,7 @@
 		"img":"pet_semetary.jpg"
 	},
 	{
+		"id":2,
 		"title":"Just One Bite",
 		"author":"Jack Heath",
 		"rating":4,
@@ -14,6 +16,7 @@
 		"img":"just_one_bite.jpg"
 	},
 	{
+		"id":3,
 		"title":"Dark Tower - The Gunslinger",
 		"author":"Steven King",
 		"rating":5,
@@ -21,6 +24,7 @@
 		"img":"dark_tower.jpg"
 	},
 	{
+		"id":4,
 		"title":"The Nanny",
 		"author":"Gilly Macmillan",
 		"rating":5,
@@ -28,6 +32,7 @@
 		"img":"the_nanny.jpg"
 	},
 	{
+		"id":5,
 		"title":"It: A Novel",
 		"author":"Steven King",
 		"rating":4,
@@ -35,30 +40,35 @@
 		"img":"it.jpg"
 	}],
 	"popular_now":[{
+		"id":6,
 		"title":"Before the Devil Fell",
 		"author":"Neil Olson",
 		"rating":5,
 		"price":10.80,
 		"img":"devil_fell.jpg"
 	},{
+		"id":7,
 		"title":"Now you See me",
 		"author":"Chris McGeorge",
 		"rating":5,
 		"price":9.99,
 		"img":"see_me.jpg"
 	},{
+		"id":8,
 		"title":"The 19th Christmas",
 		"author":"James Patterson",
 		"rating":5,
 		"price":12.99,
 		"img":"christmas_19.jpg"
 	},{
+		"id":9,
 		"title":"Strangers She Knows",
 		"author":"Christina Dodd",
 		"rating":5,
 		"price":10.99,
 		"img":"she_knows.jpg"
 	},{
+		"id":10,
 		"title":"All the Evil of this World",
 		"author":"Jared Dillian",
 		"rating":5,
@@ -66,6 +76,7 @@
 		"img":"evil_world.jpg"
 	}],
 	"halloween_fanatic":[{
+		"id":11,
 		"title":"The Gunslinger",
 		"author":"Steven King",
 		"rating":5,
@@ -73,6 +84,7 @@
 		"img":"gunslinger.jpg"
 	},
 	{
+		"id":12,
 		"title":"Ninth House",
 		"author":"Leigh Bardugo",
 		"rating":4,
@@ -80,6 +92,7 @@
 		"img":"ninth_house.jpg"
 	},
 	{
+		"id":13,
 		"title":"Vendetta in Death",
 		"author":"J.D. Robb",
 		"rating":5,
@@ -87,6 +100,7 @@
 		"img":"vendetta_death.jpg"
 	},
 	{
+		"id":14,
 		"title":"The 20th Victim",
 		"author":"Maxine Paetro",
 		"rating":5,
@@ -94,6 +108,7 @@
 		"img":"victim_20.jpg"
 	},
 	{
+		"id":15,
 		"title":"One Night Gone",
 		"author":"Tara Laskowski",
 		"rating":5,

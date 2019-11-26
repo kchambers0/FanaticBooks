@@ -29,6 +29,19 @@ export class DataService {
       )
    }
 
+   getBook(id:number) {
+    return this.http.get(this.baseUrl + 'books.json')
+      .pipe(
+        map(books => {
+          //flatten weird object array for filtering.
+          let booksArray = [].concat.apply([], Object.values(books));
+          let book = booksArray.filter((bk) => bk.id == id);
+          return (book && book.length) ? book[0] : null;
+        }),
+        catchError(this.handleError)
+      );
+   }
+
   private handleError(error: any) {
       console.error('server error:', error);
       if (error.error instanceof Error) {

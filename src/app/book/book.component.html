@@ -1,0 +1,8 @@
+<section class='content' *ngIf="book">
+	<img src="../../assets/covers/{{ book.img }}" alt="{{ book.title }}"/>
+	<p class="title">{{ book.title }}</p>
+	<p>by {{ book.author }}</p>
+	<p>Rating: {{ book.rating }}</p>
+	<p>{{ book.price | currency:currencyCode }}</p>
+	<p>And maybe I'd even load a description if I'd have bother to store one.</p>
+</section>

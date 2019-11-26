@@ -3,7 +3,7 @@
 		<h1>Fanatic Books</h1>
 		<ul>
 			<li *ngFor="let category of categories"><a href="#">{{ category }}</a></li>
-			<li><a href="#"><i class="material-icon">bookmarks</i>Browse More</a></li>
+			<li><a href="javascript:;" (click)="open($event)"><i class="material-icon">bookmarks</i>Browse More</a></li>
 		</ul>
 		<!-- Search may be it's own component -->
 		<form>
@@ -16,7 +16,7 @@
 		</div>
 	</nav>
 
-	<div class="subnav hidden">
+	<div class="subnav" [class.hidden]="isHidden" (clickOutside)="close($event)">
 		<div class="main">
 			<ul>
 				<li class="sale">Sale</li>
